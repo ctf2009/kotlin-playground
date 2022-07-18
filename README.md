@@ -3,5 +3,6 @@ This repository is a playground for Kotlin concepts and feature examples
 
 # Examples
 
-- Sealed Classes - com.ctf.example.sealed
-- RunCatching - com.ctf.example.recover
+- Sealed Classes - `com.ctf.example.sealed`
+- Run Catching - `com.ctf.example.recover`
+- SAM Conversions - `com.ctf.example.functional.sam`
