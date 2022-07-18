@@ -1,4 +1,5 @@
 import com.ctf.example.functional.sam.runFunctionalSamExample
+import com.ctf.example.receiver.runReceiverExample
 import com.ctf.example.recover.runRecoverExample
 import com.ctf.example.sealed.runner.runSealedExample
 
@@ -12,5 +13,8 @@ fun main(args: Array<String>) {
 
     // Run the Functional Sam Example
     runFunctionalSamExample()
+
+    // Run the Receiver Example
+    runReceiverExample()
 
 }
