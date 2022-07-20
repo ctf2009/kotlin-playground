@@ -1,6 +1,6 @@
 package com.ctf.example.infix
 
-data class ExampleClass(var field1: String, var field2:String)
+data class ExampleClass(var field1: String, var field2: String)
 
 infix fun String.isNotEqualTo(value: String): Boolean {
     return this != value
@@ -9,7 +9,6 @@ infix fun String.isNotEqualTo(value: String): Boolean {
 infix fun ExampleClass.mergeField1With(value: String) {
     this.field1 = "$field1: $value"
 }
-
 
 fun ExampleClass.fieldShouldBe(value: String, fieldGetter: ExampleClass.() -> String) {
     if (value isNotEqualTo fieldGetter()) {
@@ -25,5 +24,5 @@ fun runInfixExample() {
     example mergeField1With "additional info"
 
     // Standard Extension Function
-    example.fieldShouldBe("field1: additional indfo") { this.field1 }
+    example.fieldShouldBe("field1: additional info") { this.field1 }
 }
