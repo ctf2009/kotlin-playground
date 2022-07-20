@@ -7,3 +7,4 @@ This repository is a playground for Kotlin concepts and feature examples
 - Run Catching - `com.ctf.example.recover`
 - SAM Conversions - `com.ctf.example.functional.sam`
 - Receiver - `com.ctf.example.receiver`
+- Infix - `com.ctf.example.infix`

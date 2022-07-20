@@ -1,9 +1,10 @@
 import com.ctf.example.functional.sam.runFunctionalSamExample
+import com.ctf.example.infix.runInfixExample
 import com.ctf.example.receiver.runReceiverExample
 import com.ctf.example.recover.runRecoverExample
 import com.ctf.example.sealed.runner.runSealedExample
 
-fun main(args: Array<String>) {
+fun main() {
 
     // Run the Sealed Class Example
     runSealedExample()
@@ -17,4 +18,6 @@ fun main(args: Array<String>) {
     // Run the Receiver Example
     runReceiverExample()
 
+    // Run the Infix Example
+    runInfixExample()
 }
