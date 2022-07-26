@@ -1,3 +1,5 @@
+import com.ctf.example.dsl.runDslExample
+import com.ctf.example.dsl2.runDslEmployeeListExample
 import com.ctf.example.functional.sam.runFunctionalSamExample
 import com.ctf.example.infix.runInfixExample
 import com.ctf.example.receiver.runReceiverExample
@@ -20,4 +22,11 @@ fun main() {
 
     // Run the Infix Example
     runInfixExample()
+
+    // Run DSL Example
+    runDslExample()
+
+    // Run DSL Employee List
+    runDslEmployeeListExample()
 }
+
