@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:${kotlinCoroutinesVersion}"
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
