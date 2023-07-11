@@ -41,7 +41,6 @@ suspend fun main() {
             delay(5000)
             println("Last Coroutine to run in the scope - Will Not Run")
         }
-
     }
 
     println("Finished Everything")
